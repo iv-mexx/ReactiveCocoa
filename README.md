@@ -53,6 +53,7 @@ For more information about the concepts in ReactiveCocoa, see [ReactiveSwift][].
 
 After announced Swift, ReactiveCocoa was rewritten in Swift. As of [version
 5.0][CHANGELOG], the Objective-C API and the Swift API are entirely separated into different projects([ReactiveObjC][] and [ReactiveSwift][]).
+
 There is a bridge to convert between those APIs ([ReactiveObjCBridge][]) which is mostly meant as a compatibility layer for older ReactiveCocoa projects.
 
 The Objective-C API will continue to exist and be supported for the foreseeable
@@ -98,6 +99,7 @@ introductory examples of using it.
 
 [ReactiveSwift]: https://github.com/ReactiveCocoa/ReactiveSwift
 [ReactiveObjC]: https://github.com/ReactiveCocoa/ReactiveObjC
+[ReactiveObjCBridge]: https://github.com/ReactiveCocoa/ReactiveObjCBridge
 [Actions]: Documentation/FrameworkOverview.md#actions
 [Basic Operators]: Documentation/BasicOperators.md
 [CHANGELOG]: CHANGELOG.md
